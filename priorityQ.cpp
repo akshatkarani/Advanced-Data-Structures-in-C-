@@ -64,7 +64,7 @@ public:
 	priorityQueue()
 	{
 		heap_size = 0;
-		out.open("tempFile.out");
+		out.open("priority_queue.out");
 	}
 	void maxima()
 	{
@@ -153,7 +153,6 @@ int main(int argc, char const *argv[])
 			q.heap_sort();
 		}
 		itr++;
-	}
-	system("awk -f removeSpace tempFile.out");
+	}	
 	return 0;
 }
