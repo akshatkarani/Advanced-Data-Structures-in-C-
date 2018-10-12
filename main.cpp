@@ -24,14 +24,7 @@ public:
 	{
 		delete head;
 	}
-
-	/*Node* search(std::string data)
-	{
-		Node* temp = this->head;
-		while(temp != nullptr && temp->data != data)
-			temp = temp->next;
-		return temp;
-	}*/
+	
 	void insert(std::string data)
 	{
 		Node* temp = new Node;
@@ -43,23 +36,7 @@ public:
 			temp->next = this->head;
 			this->head = temp;
 		}
-	}
-	/*void dele(std::string data)
-	{
-		Node* temp = search(data);
-		if(temp != nullptr)
-		{
-			if(temp == this->head)
-				this->head = this->head->next;
-			else
-			{
-				Node* prev = this->head;
-				while(prev->next != temp)
-					prev = prev->next;
-				prev->next = temp->next;
-			}
-		}
-	}*/
+	}	
 };
 
 class HashTable : private LinkedList
