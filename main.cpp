@@ -12,6 +12,7 @@ struct Node
 	Node* next;
 };
 
+//define Linked list
 class LinkedList
 {	
 public:
@@ -94,6 +95,7 @@ public:
 	}
 };
 
+// main program starts here
 int main(int argc, char const *argv[])
 {
 	std::ifstream cin1(argv[1]);
