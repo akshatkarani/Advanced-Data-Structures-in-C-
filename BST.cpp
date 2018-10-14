@@ -14,7 +14,10 @@ struct Node
 };
 
 class binarySearchTree
-{
+{   
+	int nothing;
+	// This is just for fun
+	// Please merge this.
 	ofstream out;
 	Node* root;
 	void print_traversal(Node* temp,int num)
