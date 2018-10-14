@@ -140,6 +140,7 @@ struct Node
 	Node *prev;
 };
 
+// define a doubly linked list
 class DoublyLinkedList
 {
 	ofstream cout3;
@@ -246,6 +247,8 @@ public:
 		cout3<<endl;
 	}
 };
+
+// The main program starts here
 
 int main(int argc, char *argv[])
 {
