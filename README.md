@@ -5,4 +5,4 @@ Create issue for any data structure that you feel should be added and create a P
 
 # Contributing Guidelines
 Follow a proper style of coding and add proper comments.
-Use STL as much as possible rather than creating your own structs.
+Use STL as much as possible.
