@@ -1,0 +1,4 @@
+files = **.cpp
+bears = SpaceConsistencyBear
+use_spaces = True
+default_actions =**:ApplyPatchAction
