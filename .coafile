@@ -1,4 +1,4 @@
-[cli]
+[files]
 files = **.cpp
 bears = SpaceConsistencyBear
 use_spaces = True
