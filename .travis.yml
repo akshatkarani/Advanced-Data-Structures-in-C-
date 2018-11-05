@@ -2,8 +2,8 @@ python:
   - "3.5"
 
 install:
-  - pip install coala
-  - pip install coala-bears
+  - pip3 install coala
+  - pip3 install coala-bears
 
 script:
   - coala
