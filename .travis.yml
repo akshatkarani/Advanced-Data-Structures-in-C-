@@ -7,4 +7,5 @@ install:
   - pip install coala-bears
 
 script:
+  - coala
   - coala --non-interactive
