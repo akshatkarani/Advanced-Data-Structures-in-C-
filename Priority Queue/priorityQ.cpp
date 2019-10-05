@@ -1,9 +1,3 @@
-/*  ----- README -----
-The awk file named removeSpaces.awk is to remove
-the last space when printing the sorted elements after input read is "sort".
-No need to run the awk file manually.
-'main.cpp' will run it as long as awk is installed on the system.
-*/
 
 #include <iostream>
 #include <fstream>
